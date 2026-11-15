@@ -139,22 +139,6 @@ anime
 
 // ________________________________________________________________
 
-var textWrapper = document.querySelector(".repositorios1");
-textWrapper.innerHTML = textWrapper.textContent.replace(
-  /\S/g,
-  "<span class='letter1'>$&</span>"
-);
-
-anime({
-  targets: ".repositorios1",
-  translateX: 250,
-  direction: "alternate",
-  loop: true,
-  easing: "linear",
-});
-
-// ________________________________________________________________
-
 // Wrap every letter in a span
 var textWrapper = document.querySelector(".librerias");
 textWrapper.innerHTML = textWrapper.textContent.replace(
