@@ -558,6 +558,13 @@ button:hover {
     font-size: 60%;
   }
 
+  .blog-post h2 {
+  margin-bottom: 5px;
+  color: var(--main-color);
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
   .blog-post ul {
     grid-template-columns: 1fr;
   }
